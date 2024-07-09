@@ -54,6 +54,8 @@ nav ul{
 }
 .secondary-bgs{
     background-color:#FFF8F3 ;
+    margin: 0 200PX 0 200PX;
+    margin-bottom: 150px;
     
 }
    
@@ -97,9 +99,19 @@ nav ul{
 }
 .about{
     border-radius: 10px;
+    padding: 130px 150px;
+    text-align: center;
+    margin-top: 130px;
+
 }
 main{
     max-width: 1140px;
     margin: 0 auto;
-    padding: 130px 150px;
+}
+.item-description{
+    font-weight: 600;
+}
+.about-items{
+    display: flex;
+    justify-content: space-around;
 }
