@@ -52,10 +52,10 @@ nav ul{
     font-size: 18px;
     color:#757575;
 }
-.secondary-bgs{
+.secondary-bg{
     background-color:#FFF8F3 ;
-    margin: 0 200PX 0 200PX;
-    margin-bottom: 150px;
+    /*margin: 0 auto;*/
+    margin-bottom: 130px;
     
 }
    
@@ -99,14 +99,20 @@ nav ul{
 }
 .about{
     border-radius: 10px;
-    padding: 130px 150px;
+    padding: 110px 120px;
     text-align: center;
-    margin-top: 130px;
 
 }
 main{
     max-width: 1140px;
     margin: 0 auto;
+    /*border-radius: 20px;*/
+    /*padding: 100px 130px 100px 130px;
+    margin-left: 130px;
+    margin-right: 130px;*/
+    margin-top: 130px;
+    margin-bottom: 130px;
+
 }
 .item-description{
     font-weight: 600;
@@ -114,4 +120,16 @@ main{
 .about-items{
     display: flex;
     justify-content: space-around;
+}
+.text-center{
+    text-align: center;
+}
+.skills-container{
+    display: flex;
+    gap: 24px;
+}
+.skill{
+    padding: 30px;
+    box-shadow: 0px 6px 50px 0px rgba(255, 248, 243, 1);
+    border-radius: 5px;
 }
